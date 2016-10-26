@@ -103,7 +103,7 @@ environments:
             dbCreate: validate
     production:
         dataSource:
-            dbCreate: none
+            dbCreate: validate
             properties:
                 jmxEnabled: true
                 initialSize: 5
