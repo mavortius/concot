@@ -89,7 +89,7 @@ dataSource:
     pooled: true
     jmxExport: true
     driverClassName: com.mysql.jdbc.Driver
-    dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    dialect: org.hibernate.dialectcreate.MySQL5InnoDBDialect
     url: jdbc:mysql://localhost:3306/concot
     username: root
     password: sepai123
@@ -97,7 +97,7 @@ dataSource:
 environments:
     development:
         dataSource:
-            dbCreate: create
+            dbCreate: update
     test:
         dataSource:
             dbCreate: validate
